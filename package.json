@@ -1,71 +1,71 @@
 {
-  "name": "homebridge-gsh",
-  "displayName": "Homebridge Google Smart Home",
-  "version": "1.0.2",
-  "description": "Google Smart Home",
-  "license": "GPL-3.0",
-  "author": "oznu <dev@oz.nu>",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/oznu/homebridge-gsh.git"
-  },
-  "bugs": {
-    "url": "https://github.com/oznu/homebridge-gsh/issues"
-  },
-  "main": "dist/index.js",
-  "scripts": {
-    "install:portal": "npm install --prefix portal",
-    "install:server": "npm install --prefix server",
-    "watch": "concurrently \"npm run watch:server\" \"npm run watch:portal\"",
-    "watch:plugin": "nodemon",
-    "watch:server": "npm run watch --prefix server",
-    "watch:portal": "npm run watch --prefix portal",
-    "build": "npm run build:portal && npm run build:server",
-    "build:plugin": "tsc",
-    "build:server": "npm run build --prefix server",
-    "build:portal": "npm run build --prefix portal",
-    "start:server": "npm run start --prefix server",
-    "prepublishOnly": "npm run build:plugin"
-  },
-  "engines": {
-    "node": ">=8.15.1",
-    "homebridge": ">=0.4.22"
-  },
-  "keywords": [
-    "homebridge-plugin",
-    "google smart home",
-    "google-smart-home",
-    "google home",
-    "google-home",
-    "google assistant",
-    "google-assistant",
-    "google",
-    "android",
-    "homebridge",
-    "gsh"
-  ],
-  "bundledDependencies": [
-    "@oznu/ws-connect",
-    "fs-extra",
-    "hap-node-client",
-    "rxjs"
-  ],
-  "dependencies": {
-    "@oznu/ws-connect": "^1.0.0",
-    "fs-extra": "^8.1.0",
-    "hap-node-client": "0.0.26",
-    "rxjs": "^6.5.2"
-  },
-  "devDependencies": {
-    "@types/fs-extra": "^8.0.0",
-    "@types/node": "^12.6.8",
-    "@types/ws": "^6.0.1",
-    "concurrently": "^4.1.1",
-    "nodemon": "^1.19.1",
-    "request-promise": "^4.2.4",
-    "rimraf": "^2.6.3",
-    "ts-node": "^8.3.0",
-    "tslint": "^5.18.0",
-    "typescript": "^3.5.3"
-  }
+    "name": "@hoobs/google-home",
+    "displayName": "Google Home intergration for HOOBS",
+    "version": "1.0.2",
+    "description": "Google Home intergration for HOOBS",
+    "license": "GPL-3.0",
+    "author": "oznu <dev@oz.nu>",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/hoobs-org/homebridge-google.git"
+    },
+    "bugs": {
+        "url": "https://github.com/hoobs-org/hoobs/issues"
+    },
+    "main": "dist/index.js",
+    "scripts": {
+        "install:portal": "npm install --prefix portal",
+        "install:server": "npm install --prefix server",
+        "watch": "concurrently \"npm run watch:server\" \"npm run watch:portal\"",
+        "watch:plugin": "nodemon",
+        "watch:server": "npm run watch --prefix server",
+        "watch:portal": "npm run watch --prefix portal",
+        "build": "npm run build:portal && npm run build:server",
+        "build:plugin": "tsc",
+        "build:server": "npm run build --prefix server",
+        "build:portal": "npm run build --prefix portal",
+        "start:server": "npm run start --prefix server",
+        "prepublishOnly": "npm run build:plugin"
+    },
+    "engines": {
+        "node": ">=8.15.1",
+        "homebridge": ">=0.4.22"
+    },
+    "keywords": [
+        "hoobs-plugin",
+        "google smart home",
+        "google-smart-home",
+        "google home",
+        "google-home",
+        "google assistant",
+        "google-assistant",
+        "google",
+        "android",
+        "homebridge",
+        "gsh"
+    ],
+    "bundledDependencies": [
+        "@hoobs/ws-connect",
+        "fs-extra",
+        "hap-node-client",
+        "rxjs"
+    ],
+    "dependencies": {
+        "@hoobs/ws-connect": "^1.0.0",
+        "fs-extra": "^8.1.0",
+        "hap-node-client": "0.0.26",
+        "rxjs": "^6.5.2"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "^8.0.0",
+        "@types/node": "^12.6.8",
+        "@types/ws": "^6.0.1",
+        "concurrently": "^4.1.1",
+        "nodemon": "^1.19.1",
+        "request-promise": "^4.2.4",
+        "rimraf": "^2.6.3",
+        "ts-node": "^8.3.0",
+        "tslint": "^5.18.0",
+        "typescript": "^3.5.3"
+    }
 }

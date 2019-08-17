@@ -1,29 +1,29 @@
 export class Log {
-  private logger: any;
-  private debugMode: boolean;
+    private logger: any;
+    private debugMode: boolean;
 
-  constructor(logger, debugMode: boolean) {
-    this.logger = logger;
-    this.debugMode = debugMode;
-  }
-
-  debug(msg) {
-    if (this.debugMode) {
-      this.logger.info(msg);
-    } else {
-      this.logger.debug(msg);
+    constructor(logger, debugMode: boolean) {
+        this.logger = logger;
+        this.debugMode = debugMode;
     }
-  }
 
-  info(msg) {
-    this.logger.info(msg);
-  }
+    debug(msg) {
+        if (this.debugMode) {
+            this.logger.info(msg);
+        } else {
+            this.logger.debug(msg);
+        }
+    }
 
-  warn(msg) {
-    this.logger.warn(msg);
-  }
+    info(msg) {
+        this.logger.info(msg);
+    }
 
-  error(msg) {
-    this.logger.error(msg);
-  }
+    warn(msg) {
+        this.logger.warn(msg);
+    }
+
+    error(msg) {
+        this.logger.error(msg);
+    }
 }

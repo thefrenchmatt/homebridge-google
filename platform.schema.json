@@ -1,0 +1,49 @@
+{
+    "plugin_alias": "google-home",
+    "schema": {
+        "type": "object",
+        "properties": {
+            "platform": {
+                "title": "Platform",
+                "type": "string",
+                "const": "google-home",
+                "readOnly": true
+            },
+            "name": {
+                "title": "Name",
+                "type": "string",
+                "default": "Google Home",
+                "required": true
+            },
+            "token": {
+                "title": "Token",
+                "type": "string",
+                "required": true,
+                "options": {
+                    "hidden": true
+                }
+            },
+            "debug": {
+                "title": "Enable Debug Logging",
+                "type": "boolean"
+            },
+            "instanceBlacklist": {
+                "title": "Instance",
+                "type": "array",
+                "items": {
+                    "title": "Instance Username",
+                    "type": "string",
+                    "pattern": "^([A-Fa-f0-9]{2}:){5}[A-Fa-f0-9]{2}$"
+                }
+            },
+            "accessoryFilter": {
+                "title": "Accessory",
+                "type": "array",
+                "items": {
+                    "title": "Accessory Name",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

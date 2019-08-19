@@ -25,7 +25,9 @@
             },
             "debug": {
                 "title": "Enable Debug Logging",
-                "type": "boolean"
+                "type": "boolean",
+                "required": true,
+                "default": false
             },
             "instanceBlacklist": {
                 "title": "Instance",

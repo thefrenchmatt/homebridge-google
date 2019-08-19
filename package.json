@@ -1,7 +1,7 @@
 {
     "name": "@hoobs/google-home",
     "displayName": "Google Home intergration for HOOBS",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "description": "Google Home intergration for HOOBS",
     "license": "GPL-3.0",
     "author": "oznu <dev@oz.nu>",
@@ -32,6 +32,8 @@
         "homebridge": ">=0.4.22"
     },
     "keywords": [
+        "hoobs-certified",
+        "category-voice-assistant",
         "hoobs-plugin",
         "google smart home",
         "google-smart-home",

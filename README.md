@@ -19,7 +19,7 @@ Control your supported HOOBS accessories from any Google Home speaker or the Goo
 * Lock Mechanism
 
 > Note:
-> Google Smart Home does not currently support "sensor" devices such as Temperature Sensors, Motion Sensors, Occupancy Sensors etc.*
+> Google Home does not currently support "sensor" devices such as Temperature Sensors, Motion Sensors, Occupancy Sensors etc.*
 
 ## Known Issues
 

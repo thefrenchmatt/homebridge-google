@@ -35,8 +35,8 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 ## Credits
 
-* [OZNU](https://github.com/oznu) - developer of the [homebridge-gsh](https://github.com/oznu/homebridge-gsh).
-* [NorthernMan54](https://github.com/NorthernMan54) - developer of the [Hap-Node-Client](https://github.com/NorthernMan54/Hap-Node-Client) module which is used by this plugin.
+This is the HOOBS version of the [homebridge-gsh](https://github.com/oznu/homebridge-gsh) plugin by [OZNU](https://github.com/oznu).  
+Based on work done by [NorthernMan54](https://github.com/NorthernMan54) and the [Hap-Node-Client](https://github.com/NorthernMan54/Hap-Node-Client).
 
 Apple, HomeKit and the Apple Home icon are registered trademarks of Apple Inc.  
 Google, Google Home, Google Assistant and the Google Assistant logo are registered trademarks of Google LLC.

@@ -1,7 +1,7 @@
 {
     "name": "@hoobs/google-home",
     "displayName": "Google Home intergration for HOOBS",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Google Home intergration for HOOBS",
     "license": "GPL-3.0",
     "author": "oznu <dev@oz.nu>",
